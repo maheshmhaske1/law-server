@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 exports.connect = () => {
   mongoose
-    .connect(config.MONGODB_URL, {
+    .connect("mongodb+srv://soumitrosahaofficial:km6KUPZzPIL7RJNA@testdb.vkexehg.mongodb.net/law_site_db", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
